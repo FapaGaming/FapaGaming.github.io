@@ -73,10 +73,11 @@
 
   <!--navigation-->
   <div class="container-liquid">
-    <div class="container2 w-100 p-20px">
+    <div class="container w-100 p-20px">
       <nav class="navbar navbar-expand-sm navbar-Default bg-Default" aria-label="Third navbar example">
         <div class="container-fluid d-flex justify-content-space-between border-bottom">
-          <a class="navbar-brand" href="index.html"><img src="./images/codepro.svg" alt="logo" style="width: 150px;"></a>
+          <a class="navbar-brand" href="index.html"><img src="./images/codepro.svg" alt="logo"
+              style="width: 150px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
             aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -85,18 +86,14 @@
           <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav ms-auto mb-2 mb-sm-0" id="n1">
               <li class="nav-item" id="l1">
-                <a class="nav-link active" aria-current="page" href="index.html" id="aa">About Me</a>
+                <a class="nav-link active" aria-current="page" href="index.html" id="aa">Home</a>
               </li>
               <li class="nav-item" id="l1">
-                <a class="nav-link active" id="aa">Portfolio</a>
+                <a class="nav-link active" id="aa">Resume</a>
               </li>
               <li class="nav-item" id="l1">
                 <a class="nav-link active" id="aa">Gallery</a>
               </li>
-              <li class="nav-item" id="l1">
-                <a class="nav-link active" id="aa">Contact</a>
-              </li>
-
             </ul>
           </div>
         </div>
@@ -107,29 +104,49 @@
 
     <div class="text-center">
 
-      <main class="form-signin">
-        <form>
-          <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-
-          <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-2">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-normal lh-1 mb-3"  style="color: rgb(95,241,208); font-size: 2rem;">I AM HERE FOR YOU <br><span style="font-size: 4rem; font-weight: bolder;color: rgb(202,212,244);">CONTACT ME</span></h1>
+            <p class="col-lg-10 fs-3 fw-bold" style="color: rgb(95,241,208);">Code<span style="color: rgb(202,212,244);">Pro</span> Page design Tips</p>
+            <ul class="col-lg-10 fs-3 fw-normal" style="color: rgb(202,212,244);">
+              <li>Ensure it's easy to access</li>
+              <li>Make it unique</li>
+              <li>Inclde the right information</li>
+              <li>Offer multiple contact options</li>
+              <li>Don't ask for too much information</li>
+            </ul>
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
+          <div></div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3" style="color: rgb(202,212,244);">
+              <img class="mb-4" src="./images/codepro.svg" alt="" height="70">
+              <h1 class="h4 mb-3 fw-bold">Contact Me Directly</h1>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">First Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com">
+                <label for="floatingPassword">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="floatingInput" placeholder="0960XXXXXXX">
+                <label for="floatingInput">Mobile</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+                <label for="comment">Write a message</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-transfarent"
+                style="border: solid 1px rgb(202,212,244); color: rgb(95,241,208);" type="submit">Message Send</button>
+              <hr class="my-4">
+              <small class="text-muted">if you're looking for a developer to add to your team, I'd love to hear from
+                you!</small>
+            </form>
           </div>
-
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-          <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-        </form>
-      </main>
+        </div>
+      </div>
 
 
 
@@ -143,15 +160,23 @@
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <img src="codepro.svg" alt="logo" style="width: 150px;">
+            <img src="./images/codepro.svg" alt="logo" style="width: 150px;">
           </a>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-facebook" style="color: rgb(95,241,208);"></i></a></li>
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-linkedin" style="color: rgb(95,241,208);"></i></a></li>
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-discord" style="color: rgb(95,241,208);"></i></a></li>
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-youtube" style="color: rgb(95,241,208);"></i></a></li>
+          <li class="ms-3"><a href="https://www.facebook.com/jaiyanz22"><i class="fa-brands fa-facebook"
+                style="color: rgb(95,241,208);"></i></a></li>
+          <li class="ms-3"><a href="https://www.linkedin.com/in/jaime-yanoc-4b715116b/"><i class="fa-brands fa-linkedin"
+                style="color: rgb(95,241,208);"></i></a></li>
+          <li class="ms-3"><a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"
+                style="color: rgb(95,241,208);"></i></a></li>
+          <li class="ms-3"><a href="https://www.youtube.com/channel/UCXyWGVK9w16Xc9elwipflBw"><i
+                class="fa-brands fa-youtube" style="color: rgb(95,241,208);"></i></a></li>
+          <li class="ms-3"><a href="https://github.com/FapaGaming"><i class="fa-brands fa-github"
+                style="color: rgb(95,241,208);"></i></a></li>
+          <li class="ms-3"><a href="https://www.twitch.tv/fapa_gaming"><i class="fa-brands fa-twitch"
+                style="color: rgb(95,241,208);"></i></a></li>
         </ul>
       </footer>
     </div>

@@ -129,9 +129,12 @@ i{
  
   position: absolute;
   left: 0;
-  bottom 0;
+  bottom: 0;
   z-index: -1;
   transition: 0.5s;
+}
+#span11 > a{
+  text-decoration: none;
 }
 #button77:hover span{
   width: 100%;

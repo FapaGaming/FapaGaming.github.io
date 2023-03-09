@@ -82,7 +82,28 @@ i{
   color: rgb(10,25,47);
 }
 #hero1{
+  color: rgb(202,212,244);
+  transition: .8s;
+}
+#hero1:hover{
+  color: yellowgreen;
+}
+#devep{
   color: rgb(95,241,208);
+  transition: .8s;
+}
+#devep:hover{
+  color: yellowgreen;
+}
+#me1{
+  font-size: 2rem;
+  color:  rgb(95,241,208);
+  transition: .8s;
+}
+#me1:hover{
+  font-size: 5rem;
+  color: yellowgreen;
+
 }
 #pp{
   color: rgb(202,212,244);

@@ -145,6 +145,47 @@ i{
   color: rgb(10,25,47);
 
 }
+#skills-offer{
+  color: rgb(95,241,208);
+  font-size: 3rem;
+  display: flex;
+  justify-content: left;
+  transition: .8s;
+}
+#skills-offer:hover{
+  font-size: 5rem;
+  color: yellowgreen;
+}
+#f-p{
+  color: rgb(95,241,208); 
+  transition: .8s;
+}
+#f-p:hover{
+  font-size: 5rem;
+  color: yellowgreen;
+}
+#projec{
+  color: rgb(95,241,208); 
+  transition: .8s;
+}
+#project:hover{
+  color: yellowgreen;
+}
+#wwdd{
+  color: rgb(202,212,244);
+  transition: .8s;
+}
+#wwdd:hover{
+  color: rgb(95,241,208); 
+}
+#icon-1{
+  color: rgb(95,241,208);
+  transition: .8s;
+}
+#icon-1:hover{
+  color: yellowgreen;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem; 

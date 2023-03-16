@@ -247,8 +247,14 @@ i{
   transform: rotateY(180deg);
 }
 
-@media (min-width: 768px) {
+
+
+@media (max-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem; 
+
+  }
+  #mySidenav{
+    display: none;
   }
 }
